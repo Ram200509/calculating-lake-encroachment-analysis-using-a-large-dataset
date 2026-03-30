@@ -44,55 +44,49 @@ Using **Google Earth Engine**, **Sentinel-2 imagery**, and the **Normalized Diff
 ---
 
 ## Project Structure
-'''bash
-LAKE_ENCROACHMENT/
-│
+
+```bash
+Overhead-Satellite-Drone-Image-Analysis/
 ├── data/
 │   ├── 2018_renders/
-|   |   ├── bellandur_lake_2018_render.jpg
-|   |   ├── chilika_lake_2018_render.jpg
-|   |   ├── dal_lake_2018_render.jpg
-|   |   ├── hussain_sagar_2018_render.jpg
-|   |   ├── loktak_lake_2018_render.jpg
-|   |   ├── pulicat_lake_2018_render.jpg
-|   |   ├── sambhar_lake_2018_render.jpg
-|   |   ├── vembanad_lake_2018_render.jpg
-|   |
-|   ├── 2024_renders/
-|   |   ├── bellandur_lake_2024_render.jpg
-│   |   ├── chilika_lake_2024_render.jpg
-|   |   ├── dal_lake_2024_render.jpg
-|   |   ├── hussain_sagar_2024_render.jpg
-|   |   ├── loktak_lake_2024_render.jpg
-|   |   ├── pulicat_lake_2024_render.jpg
-|   |   ├── sambhar_lake_2024_render.jpg
-|   |   ├── vembanad_lake_2024_render.jpg
-|   |
-│   ├── Lakes 2018 renders.png
-│   ├── Lakes 2024 renders.png
-│
+│   │   ├── bellandur_lake_2018_render.jpg
+│   │   ├── sambhar_lake_2018_render.jpg
+│   │   ├── pulicat_lake_2018_render.jpg
+│   │   ├── dal_lake_2018_render.jpg
+│   │   ├── chilika_lake_2018_render.jpg
+│   │   ├── vembanad_lake_2018_render.jpg
+│   │   ├── loktak_lake_2018_render.jpg
+│   │   └── hussain_sagar_lake_2018_render.jpg
+│   ├── 2024_renders/
+│   │   ├── bellandur_lake_2024_render.jpg
+│   │   ├── sambhar_lake_2024_render.jpg
+│   │   ├── pulicat_lake_2024_render.jpg
+│   │   ├── dal_lake_2024_render.jpg
+│   │   ├── chilika_lake_2024_render.jpg
+│   │   ├── vembanad_lake_2024_render.jpg
+│   │   ├── loktak_lake_2024_render.jpg
+│   │   └── hussain_sagar_lake_2024_render.jpg
+│   ├── Lakes_2018_renders.png
+│   └── Lakes_2024_renders.png
 ├── results/
 │   ├── lake_area_comparison_graph_final.png
-│   ├── lake_area_summary_table.csv
 │   ├── lake_water_masks_comparison.jpg
-|   ├── Result_data2.png
-|   ├── summarytable.png
-│
+│   ├── Result_data2.png
+│   ├── summarytable.png
+│   └── lake_area_summary_table.csv
 ├── scripts/
 │   └── data_collection.py
-│
 ├── sets/
 │   ├── 2018lake.py
 │   ├── 2024lake.py
 │   ├── filesavelake2018.py
-│   ├── filesavelake2024.py
-│
+│   └── filesavelake2024.py
 ├── compute.py
 ├── graph.py
-├── README.md
+├── tablevalues.py
 ├── requirements.txt
-└── tablevalues.py
-
+├── README.md
+└── .gitignore
 ---
 
 ## NDWI Calculation
