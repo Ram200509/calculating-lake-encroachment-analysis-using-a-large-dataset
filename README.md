@@ -82,6 +82,7 @@ Lake-area-variation-analysis/
 │   ├── filesavelake2018.py
 │   └── filesavelake2024.py
 ├── compute.py
+├── equation.png
 ├── graph.py
 ├── tablevalues.py
 ├── requirements.txt
@@ -92,7 +93,7 @@ Lake-area-variation-analysis/
 
 ## NDWI Calculation
 
-\[\text {NDWI} = \frac {\text{Green} - \text {NIR}}{\text {Green} + \text {NIR}}\]
+![Equation](lake_area_variation_analysis\equation.png)
 
 - **Green** = Band 3  
 - **NIR** = Band 8  
