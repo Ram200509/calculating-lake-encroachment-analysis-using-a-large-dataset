@@ -71,11 +71,11 @@ lake_area_variation_analysis/
 ├── results/
 |   ├──compute.py
 |   ├── graph.py
-|   ├──tablevalues.py
 │   ├── lake_area_comparison_graph_final.png
 │   ├── lake_water_masks_comparison.jpg
 │   ├── Result_data2.png
 │   ├── summarytable.png
+|   ├──tablevalues.py
 │   └── lake_area_summary_table.csv
 ├── scripts/
 │   └── data_collection.py
