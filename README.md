@@ -44,6 +44,7 @@ Using **Google Earth Engine**, **Sentinel-2 imagery**, and the **Normalized Diff
 ---
 
 ## Project Structure
+'''bash
 LAKE_ENCROACHMENT/
 │
 ├── data/
