@@ -144,7 +144,7 @@ Change = Area₂₀₂₄ − Area₂₀₁₈
 ## How to Run the Project
 
 1. Clone this branch:
-   git clone -b lake-area-change-analysis https://github.com/sm7313617-create/Overhead-Satellite-Drone-Image-Analysis.git
+   git clone -b lake-area-change-analysis https://github.com/Ram200509/Quantifying-Lake-Area-Loss-in-India-using-Satellite-Remote-Sensing.git
    cd Overhead-Satellite-Drone-Image-Analysis
 
 2. Set up virtual environment
