@@ -46,7 +46,7 @@ Using **Google Earth Engine**, **Sentinel-2 imagery**, and the **Normalized Diff
 ## Project Structure
 
 ```bash
-Lake-area-variation-analysis/
+lake_area_variation_analysis/
 ├── data/
 │   ├── 2018_renders/
 │   │   ├── bellandur_lake_2018_render.jpg
@@ -93,7 +93,7 @@ Lake-area-variation-analysis/
 
 ## NDWI Calculation
 
-![Equation](equation.png)
+![Equation](lake_area_variation_analysis/equation.png)
 
 - **Green** = Band 3  
 - **NIR** = Band 8  
