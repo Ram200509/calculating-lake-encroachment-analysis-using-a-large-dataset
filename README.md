@@ -92,9 +92,7 @@ Lake-area-variation-analysis/
 
 ## NDWI Calculation
 
-\[
-\text{NDWI} = \frac{\text{Green} - \text{NIR}}{\text{Green} + \text{NIR}}
-\]
+\[\text {NDWI} = \frac {\text{Green} - \text {NIR}}{\text {Green} + \text {NIR}}\]
 
 - **Green** = Band 3  
 - **NIR** = Band 8  
